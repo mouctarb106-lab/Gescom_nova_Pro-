@@ -1,0 +1,8 @@
+GESCOM NOVA PRO — CHECKLIST AVANT MISE EN SERVICE
+
+1. Conserver l'ancien ZIP et l'ancien site tant que la nouvelle version n'est pas testée.
+2. Déployer le contenu du dossier GESCOM_NOVA_PRO sur Cloudflare Pages.
+3. Configurer DATABASE_URL comme secret Cloudflare avec la chaîne de connexion Neon.
+4. Ne pas activer la synchronisation pour les données clients tant que l'authentification serveur par utilisateur/entreprise n'est pas terminée.
+5. Les comptes et données de l'interface actuelle sont locaux à l'appareil; ils ne constituent pas un système de connexion sécurisé multi-utilisateur.
+6. Ne jamais publier DATABASE_URL ou GESCOM_SYNC_TOKEN dans GitHub ni dans index.html.

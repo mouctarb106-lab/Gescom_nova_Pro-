@@ -1,0 +1,9 @@
+{
+  "name": "gescom-nova-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "wrangler pages dev .", "deploy": "wrangler pages deploy ."},
+  "dependencies": {"@neondatabase/serverless": "^1.0.2"},
+  "devDependencies": {"wrangler": "^4.20.0"}
+}
